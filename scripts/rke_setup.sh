@@ -35,12 +35,12 @@ install_obrienlabs() {
  
   # copy your private ssh key and cluster.yml file to the vm
   # on your dev machine
-  #sudo cp ~/.ssh/onap_rsa .
-  #sudo chmod 777 onap_rsa 
-  #scp onap_rsa ubuntu@192.168.241.132:~/
+  #sudo cp ~/.ssh/obrienlabs_rsa .
+  #sudo chmod 777 obrienlabs_rsa
+  #scp obrienlabs_rsa ubuntu@192.168.241.132:~/
   # on this vm
-  #sudo chmod 400 onap_rsa 
-  #sudo cp onap_rsa ~/.ssh
+  #sudo chmod 400 obrienlabs_rsa
+  #sudo cp obrienlabs_rsa ~/.ssh
   # make sure public key is setup correctly in
   # sudo vi ~/.ssh/authorized_keys
 
